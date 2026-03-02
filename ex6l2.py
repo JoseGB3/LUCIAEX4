@@ -1,4 +1,4 @@
-num = int(input("Digite o número de dias trabalhados pelo encanador: "))
-contrato = 30 * num
-salario = contrato * 0.92
-print(f"O salário do encanador é: R$ {salario:.2f}")
+h=int(input("Digite a altura que deseja alcançar: "))
+h_degrau=float(input("Digite a altura do degrau: "))
+objetivo=int(h/h_degrau)
+print(f"A pessoa deverá subir {objetivo} degraus" )
